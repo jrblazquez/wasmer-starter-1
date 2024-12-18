@@ -1,0 +1,10 @@
+capabilities:
+  database:
+    engine: mysql
+kind: wasmer.io/App.v0
+name: wasmer-starter-1
+owner: cypress1
+package: .
+volumes:
+- mount: /app/wp-content
+  name: wp-content
